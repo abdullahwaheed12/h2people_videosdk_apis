@@ -21,7 +21,7 @@ app.get("/", (req, res) => {
 
 //
 app.get("/get-token", (req, res) => {
-  const API_KEY = "https://api.videosdk.live";
+  const API_KEY = "https://api.videosdk.live/v2";
   const SECRET_KEY = "a1af4eb1af094fc85316785d641d18c4e3dd597b1ec6cecc4a76f03c4d29a713";
 
   const options = { expiresIn: "10m", algorithm: "HS256" };
